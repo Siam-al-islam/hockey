@@ -28,13 +28,13 @@
     </script>
 </head>
 
-<body>
+<body class="mx-5 lg:mx-0">
     <header class="max-w-[1170px] mx-auto">
         <!-- navbar  -->
         <nav class="sm:my-2 lg:my-12">
             <div class="navbar bg-base-100 p-0">
                 <div class="navbar-start">
-                    <a class="btn btn-ghost text-2xl lg:text-4xl font-extrabold order-1">Hockey<span
+                    <a href="" class="text-2xl lg:text-4xl font-extrabold order-1">Hockey<span
                             class="text-primary-color">’</span>s</a>
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -64,7 +64,7 @@
                     </ul>
                 </div>
                 <div class="navbar-end flex gap-4">
-                    <svg class="hidden lg:block" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    <svg class="cursor-pointer hidden lg:block" width="24" height="24" viewBox="0 0 24 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_5_6)">
                             <path
@@ -79,12 +79,12 @@
                             </clipPath>
                         </defs>
                     </svg>
-                    <button class="btn px-6 text-white text-[18px] lg:text-xl  bg-primary-color">Get Ticket</button>
+                    <button class="btn px-6 text-white lg:text-xl  bg-primary-color">Get Ticket</button>
                 </div>
             </div>
         </nav>
         <!-- slide banner section  -->
-        <section class="mt-6">
+        <section class="mt-6 relative space-y-4">
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="images/1.png" class="w-full" />
@@ -100,6 +100,14 @@
                         <a href="#slide3" class="btn btn-circle">❯</a>
                     </div>
                 </div>
+            </div>
+            <div class="bg-black lg:w-[566px] p-4 lg:p-8 rounded-2xl space-y-4 lg:absolute right-8 top-[350px]">
+                <h3 class="text-white text-[18px] lg:text-2xl font-extrabold">Meet all the heroes from the field</h3>
+                <p class="text-[#ffffff93] text-sm lg:text-base">Gather heroes, diverse in expertise, for a powerful
+                    collaboration,
+                    igniting
+                    innovation and advancing
+                    their respective fields.</p>
             </div>
         </section>
     </header>
