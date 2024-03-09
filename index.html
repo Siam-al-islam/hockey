@@ -19,6 +19,10 @@
         tailwind.config = {
             theme: {
                 extend: {
+                    backgroundImage: {
+                        'hockey': "url('images/2.png')",
+                        'hockey2': "url('images/Vector.png')"
+                    },
                     colors: {
                         'primary-color': '#FF4240',
                     }
@@ -122,8 +126,8 @@
                     determination on ice.</p>
             </div>
             <!-- progress  -->
-            <div class="lg:mt-12 lg:flex gap-8 text-center space-y-6">
-                <div class="space-y-5">
+            <div class="lg:mt-12 lg:flex gap-8 text-center">
+                <div class="space-y-5 py-6 lg:p-0">
                     <div class="radial-progress text-primary-color font-extrabold text-3xl"
                         style="--value:87; --size:12rem; --thickness: 1rem;" role="progressbar">
                         87%</div>
@@ -132,7 +136,7 @@
                         connection in prayer facility.
                     </p>
                 </div>
-                <div class="space-y-5">
+                <div class="space-y-5 py-6 lg:p-0">
                     <div class="radial-progress text-emerald-500 font-extrabold text-3xl"
                         style="--value:95; --size:12rem; --thickness: 1rem;" role="progressbar">
                         95%</div>
@@ -140,7 +144,7 @@
                     <p class="text-[#1313188e]">Seasoned mentor refines skills, guides triumphs, shapes champions in
                         every endeavor.</p>
                 </div>
-                <div class="space-y-5">
+                <div class="space-y-5 py-6 lg:p-0">
                     <div class="radial-progress text-amber-500 font-extrabold text-3xl"
                         style="--value:90; --size:12rem; --thickness: 1rem;" role="progressbar">
                         90%</div>
@@ -148,7 +152,7 @@
                     <p class="text-[#1313188e]">Veteran athlete excels, embodying resilience, leadership, and enduring
                         sportsmanship</p>
                 </div>
-                <div class="space-y-5">
+                <div class="space-y-5 py-6 lg:p-0">
                     <div class="radial-progress text-blue-500 font-extrabold text-3xl"
                         style="--value:80; --size:12rem; --thickness: 1rem;" role="progressbar">
                         80%</div>
@@ -160,7 +164,7 @@
         </section>
         <!-- Program Sections -->
         <section class="mt-8 lg:mt-24">
-            <div class="space-y-6 max-w-[607px] mx-auto text-center py-8">
+            <div class="space-y-6 max-w-[607px] mx-auto text-center lg:py-8">
                 <h1 class="text-xl lg:text-3xl font-extrabold">Program Sections</h1>
                 <p class="text-[#1313188e] font-medium">Dynamic hockey program cultivates talent, fosters teamwork, and
                     champions sportsmanship, creating
@@ -168,27 +172,30 @@
                     and resilient athletes.</p>
             </div>
             <!-- card layout -->
-            <div class="grid lg:grid-cols-2 grid-cols-1 gap-6">
+            <div class="grid lg:grid-cols-2 grid-cols-1 gap-6 mt-10">
                 <!-- first card  -->
                 <div class="card image-full">
-                    <img class="w-full" src="images/2.png" />
-                    <div class="card-body flex justify-end p-6">
+                    <img class="w-full h-full" src="images/2.png" />
+                    <div class="card-body w-full flex justify-end p-6">
                         <div class="space-y-4">
                             <h2 class="text-white text-xl lg:text-3xl font-extrabold">Teenager Program</h2>
-                            <p class="text-white font-medium text-sm">Hockey Teenager Program hones skills, builds
+                            <p class="text-white font-thin lg:font-medium text-sm">Hockey Teenager Program hones skills,
+                                builds
                                 character,
                                 and forges lasting connections, fostering emerging athletic excellence.</p>
-                            <button class="btn bg-primary-color text-white border-0 py-2">Register Now!</button>
+                            <button class="btn bg-primary-color text-white border-0">Register Now!</button>
                         </div>
                     </div>
                 </div>
                 <!-- second card  -->
                 <div class="card image-full">
-                    <img class="w-full" src="images/2.png" />
-                    <div class="card-body flex justify-end">
+                    <img class="w-full h-full" src="images/3.png" />
+                    <div class="card-body w-full flex justify-end p-6">
                         <div class="space-y-4">
-                            <h2 class="text-white text-3xl font-extrabold">Junior Program</h2>
-                            <p class="text-white font-medium">Nurturing young talents, Hockey Junior Program instills
+                            <h2 class="text-white text-xl lg:text-3xl font-extrabold">Junior Program</h2>
+                            <p class="text-white font-thin lg:font-medium text-sm">Nurturing young talents, Hockey
+                                Junior Program
+                                instills
                                 skills, camaraderie, and
                                 sportsmanship, fostering future champions' growth.</p>
                             <button class="btn bg-primary-color text-white border-0">Register Now!</button>
@@ -197,11 +204,13 @@
                 </div>
                 <!-- third card  -->
                 <div class="card image-full lg:col-span-2">
-                    <img src="images/4.png" />
-                    <div class="card-body flex justify-end">
+                    <img class="w-full h-full" src="images/4.png" />
+                    <div class="card-body w-full flex justify-end p-6 ">
                         <div class="space-y-4 max-w-[520px]">
-                            <h2 class="text-white text-3xl font-extrabold">Professional Program</h2>
-                            <p class="text-white font-medium">Elevating elite play, Hockey Professional Program refines
+                            <h2 class="text-white text-xl lg:text-3xl font-extrabold">Professional Program</h2>
+                            <p class="text-white font-thin lg:font-medium text-sm">Elevating elite play, Hockey
+                                Professional Program
+                                refines
                                 skills, strategy, and mindset for sustained athletic excellence.</p>
                             <button class="btn bg-primary-color text-white border-0">Register Now!</button>
                         </div>
